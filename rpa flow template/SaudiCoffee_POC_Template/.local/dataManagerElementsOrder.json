@@ -1,0 +1,31 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "transactionFail&Flowchart_1",
+        "errorLogin&Flowchart_1",
+        "LoginErrorCounter&Flowchart_1",
+        "counterExceeded&Flowchart_1",
+        "processingCounterExceeded&Sequence_5",
+        "processingErrorCounter&Sequence_5",
+        "variable1&TryCatch_1",
+        "passs&Sequence_6",
+        "userrr&Sequence_6",
+        "pyObj&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
