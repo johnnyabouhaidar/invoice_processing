@@ -12,6 +12,9 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "pyObj&Sequence_22",
+        "Mails&Flowchart_1",
+        "invoice_path&Flowchart_1",
         "transactionFail&Flowchart_1",
         "errorLogin&Flowchart_1",
         "LoginErrorCounter&Flowchart_1",
@@ -20,8 +23,7 @@
         "processingErrorCounter&Sequence_5",
         "variable1&TryCatch_1",
         "passs&Sequence_6",
-        "userrr&Sequence_6",
-        "pyObj&Sequence_3"
+        "userrr&Sequence_6"
       ],
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
