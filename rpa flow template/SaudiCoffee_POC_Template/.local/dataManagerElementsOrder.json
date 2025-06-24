@@ -12,6 +12,8 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "process_invoice&Flowchart_1",
+        "itemsDT&Sequence_25",
         "pyObj&Sequence_22",
         "Mails&Flowchart_1",
         "invoice_path&Flowchart_1",
