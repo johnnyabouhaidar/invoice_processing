@@ -34,17 +34,17 @@ def process_invoice(filepath,outputpath):
     header_df.to_excel(outputpath,"header",header=True,index=False)
     ##############################table
 
-    columnnames = ['SKU', 'QTY', 'unit price','total price']
+    columnnames = ['QTY', 'unit price','total price']
     df = pd.DataFrame(columns=columnnames)
 
 
-    columns= [[(1253, 770, 1522, 1463),'SKU'],[(511, 770, 671, 1463),'QTY'],[(286, 770, 501, 1463),'unit price'],[(65, 770, 283, 1463),'total price']]
+    columns= [[(950, 1006, 1070, 1154),'QTY'],[(781, 1006, 949, 1154),'unit price'],[(53, 1006, 233, 1154),'total price']]
     for image in images:
         tmpdf = pd.DataFrame(columns=columnnames)
         for col in columns:
             cropped = image.crop(col[0])
             
-            text = pytesseract.image_to_string(cropped,config=r"--psm 6 -c tessedit_char_whitelist=0123456789.")
+            text = pytesseract.image_to_string(cropped,config=r"--psm 6 -c tessedit_char_whitelist=0123456789,.")
             #print(text.replace("\n","|||"))
 
             
@@ -54,7 +54,7 @@ def process_invoice(filepath,outputpath):
         df = pd.concat([df, tmpdf], ignore_index=True)
     df.replace("", pd.NA, inplace=True)
     df = df.dropna()
-    print(df["total price"].astype(float).sum()*0.15)
+    #print(df["total price"].astype(float).sum()*0.15)
     #df.to_excel("output.xlsx","table",header=False,index=False)
     with pd.ExcelWriter(outputpath, mode='a', engine='openpyxl') as writer:
         df.to_excel(writer, sheet_name='Table', index=False)
