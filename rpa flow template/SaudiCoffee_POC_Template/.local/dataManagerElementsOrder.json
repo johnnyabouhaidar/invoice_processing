@@ -12,6 +12,9 @@
       "Path": "Main.xaml",
       "SortBy": 0,
       "VariablesSectionElementsOrder": [
+        "inv_date&Sequence_31",
+        "inv_number&Sequence_31",
+        "invoice_items&Sequence_31",
         "process_invoice&Flowchart_1",
         "itemsDT&Sequence_25",
         "pyObj&Sequence_22",
