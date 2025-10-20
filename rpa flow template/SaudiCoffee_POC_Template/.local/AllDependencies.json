@@ -21608,15 +21608,15 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\johnny.abouhaidar\\.nuget\\packages\\": {}
+    "C:\\Users\\Johnny Abou Haidar\\.nuget\\packages\\": {}
   },
   "project": {
     "restore": {
       "projectUniqueName": "SaudiCoffee_POC_Template",
       "projectName": "SaudiCoffee_POC_Template",
-      "projectPath": "D:\\KSA\\saudi coffee co\\rpa flow template\\SaudiCoffee_POC_Template\\.local",
-      "packagesPath": "C:\\Users\\johnny.abouhaidar\\.nuget\\packages\\",
-      "outputPath": "D:\\KSA\\saudi coffee co\\rpa flow template\\SaudiCoffee_POC_Template\\.local"
+      "projectPath": "C:\\Users\\Johnny Abou Haidar\\Desktop\\Work\\KSA\\saudi coffee co\\rpa flow template\\SaudiCoffee_POC_Template\\.local",
+      "packagesPath": "C:\\Users\\Johnny Abou Haidar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Johnny Abou Haidar\\Desktop\\Work\\KSA\\saudi coffee co\\rpa flow template\\SaudiCoffee_POC_Template\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
